@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.github.saulojr.argumento;
+
+/**
+ *
+ * @author Saulo Jr
+ */
+public class ComGithubSauloJrArgumento {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int total = 0;
+        
+        for(int i = 0; i< args.length; i++){
+            total += Integer.parseInt(args[i]);
+        }
+        System.out.println(total);
+    }
+    
+}
